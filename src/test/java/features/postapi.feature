@@ -6,7 +6,7 @@ Feature: Create user using post api
     """
     {
         "name": "Tom",
-        "email": "tom@gmail.com",
+        "email": "tom12@gmail.com",
         "gender": "male",
         "status": "active"
     }
@@ -20,4 +20,4 @@ Feature: Create user using post api
       Then status 201
       And match $.data.id == '#present'
       And match $.data.name == '#present'
-      And match $.data.email == 'tom@gmail.com'
+      And match $.data.email == 'tom12@gmail.com'

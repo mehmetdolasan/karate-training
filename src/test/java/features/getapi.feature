@@ -2,7 +2,7 @@ Feature: GET API feature
 
   Scenario: get user details
     Given url baseUrl+'/public/v1/users'
-    And path '6129374'
+    And path '6140229'
     When method GET
     Then status 200
     * print response
@@ -13,9 +13,9 @@ Feature: GET API feature
     * print actId
     * print actName
     * print actEmail
-    * match actId == 6129374
-    * match actName == "Ganaka Kaul"
-    * match actEmail == "kaul_ganaka@bins.example"
+    * match actId == 6140229
+    * match actName == "Gaurang Bandopadhyay IV"
+    * match actEmail == "iv_gaurang_bandopadhyay@rau.test"
 
 
   Scenario: get user details - user not found

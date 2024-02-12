@@ -16,12 +16,14 @@
 
     <dependencies>
 
+        <!-- https://mvnrepository.com/artifact/com.intuit.karate/karate-core -->
         <dependency>
             <groupId>com.intuit.karate</groupId>
-            <artifactId>karate-apache</artifactId>
-            <version>0.9.6</version>
-            <scope>test</scope>
+            <artifactId>karate-core</artifactId>
+            <version>1.4.1</version>
         </dependency>
+
+
 
         <dependency>
             <groupId>com.intuit.karate</groupId>
